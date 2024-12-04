@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  contato-app:
+    build: .
+    ports:
+      - "8081:8081"
+    container_name: serv_do_vava
+    restart: always
